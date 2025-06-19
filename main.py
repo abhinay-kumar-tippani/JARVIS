@@ -6,7 +6,7 @@ from datetime import datetime
 # Initialize recognizer and speech engine
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
-genai.configure(api_key="AIzaSyCNB0bEJYtGKU0tiDnc6VWaudebTM5F5CY")  
+genai.configure(api_key="<YOUR_API_KEY>")  
 
 # Speak out loud
 def speak(text):
