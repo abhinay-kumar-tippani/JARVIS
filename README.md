@@ -2,7 +2,7 @@
 
 A Python-based personal voice assistant that listens to your voice commands, responds using Google's **Gemini AI**, and speaks back like Iron Man’s Jarvis!
 
-> “I am Jarvis, your personal assistant... Online and ready. 🎙️"
+> “I am Jarvis, your personal assistant... Online and ready.” 🎙️
 
 ---
 
