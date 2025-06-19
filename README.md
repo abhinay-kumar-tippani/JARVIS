@@ -6,7 +6,7 @@ A Python-based personal voice assistant that listens to your voice commands, res
 
 ---
 
-## 🚀 Features
+**🚀 Features**
 
 - 🔊 Wake word detection: Listens for the word **"Jarvis"**
 - 🎤 Converts speech to text using `SpeechRecognition`
@@ -16,7 +16,7 @@ A Python-based personal voice assistant that listens to your voice commands, res
 
 ---
 
-## 🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 - Python 3.x
 - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
@@ -26,9 +26,23 @@ A Python-based personal voice assistant that listens to your voice commands, res
 
 ---
 
-## 📦 Installation
+**📽️ Demo**
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/jarvis-ai-assistant.git
-   cd jarvis-ai-assistant
+
+---
+
+**🧠 Sample Commands**
+
+"Jarvis, what’s the time?"
+"Jarvis, what is the capital of France?"
+"Jarvis, tell me a joke"
+"Jarvis, what is AI?"
+
+---
+
+**⚠️ Notes**
+
+-Requires working microphone and internet connection
+-Wake word must be "Jarvis"
+-Gemini responses may vary; only the first line is spoken
+
