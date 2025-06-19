@@ -31,7 +31,7 @@ A Python-based personal voice assistant that listens to your voice commands, res
 
 ---
 
-# 🧠 Sample Commands
+**🧠 Sample Commands**
 
 - "Jarvis, what’s the time?"
 - "Jarvis, what is the capital of France?"
