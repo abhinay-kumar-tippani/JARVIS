@@ -1,48 +1,58 @@
-# 🧠 Jarvis AI Voice Assistant
+# 🧠 Jarvis AI Voice Assistant 2.0
 
-A Python-based personal voice assistant that listens to your voice commands, responds using Google's **Gemini AI**, and speaks back like Iron Man’s Jarvis!
+A Python-based personal voice assistant that listens to your voice, responds intelligently using **Gemini AI**, and speaks back — just like Iron Man’s Jarvis.  
+Now with **YouTube control**, **system commands**, and **continuous conversation** mode!
 
-> “I am Jarvis, your personal assistant... Online and ready.” 🎙️
-
----
-
-# 🚀 Features
-
-- 🔊 Wake word detection: Listens for the word **"Jarvis"**
-- 🎤 Converts speech to text using `SpeechRecognition`
-- 🧠 Integrates **Gemini AI** (`google.generativeai`) for intelligent replies
-- 🗣️ Speaks responses using `pyttsx3` TTS engine
-- ⏰ Built-in commands for **time** and **date**
+> “I am Jarvis... online and always listening.” 🎙️
 
 ---
 
-# 🛠️ Tech Stack
+## 🚀 Features
+
+- 🛎️ **Wake Word Detection** — Say “Jarvis” to activate
+- 🎤 **Speech to Text** — via `SpeechRecognition`
+- 🧠 **Smart Replies** — powered by **Gemini AI (Google)**
+- 🗣️ **Text to Speech** — using `pyttsx3`
+- 📆 Tells **date** and **time**
+- 🎵 **Play any song on YouTube** by voice
+- 🌐 **Open websites** like Google, YouTube
+- 💻 **System commands** like shutdown
+- 🔁 **Continuous mode** — keeps listening until you say “stop” or “bye”
+- 🧠 Says **“Let me think...”** before answering (like a real assistant!)
+
+---
+
+## 🛠️ Tech Stack
 
 - Python 3.x
 - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
 - [pyttsx3](https://pypi.org/project/pyttsx3/)
 - [google.generativeai (Gemini API)](https://ai.google.dev/)
-- datetime (built-in)
+- [pywhatkit](https://pypi.org/project/pywhatkit/)
+- `datetime`, `webbrowser`, `os`
 
 ---
 
-# 📽️ Demo
-{//video}
+## 🧪 Sample Commands
+
+- “Jarvis, what is the time?”
+- “Jarvis, play *Rise of Dragon* on YouTube”
+- “Jarvis, open Google”
+- “Jarvis, shutdown the system”
+- “Jarvis, who is the Prime Minister of India?”
 
 ---
 
-**🧠 Sample Commands**
 
-- "Jarvis, what’s the time?"
-- "Jarvis, what is the capital of France?"
-- "Jarvis, tell me a joke"
-- "Jarvis, what is AI?"
+## ⚠️ Notes
+
+- A working **microphone** and **internet connection** are required  
+- Wake word must be “Jarvis” (case-insensitive)  
+- Gemini responses are limited to the **first line only** for clarity  
+- Built for learning and experimentation — not a production AI assistant
 
 ---
 
-# ⚠️ Notes
+## 🧠 Built by [Abhinay Kumar](https://www.linkedin.com/in/abhinay-kumar-tippani/)
 
-- Requires working microphone and internet connection
-- Wake word must be "Jarvis"
-- Gemini responses may vary; only the first line is spoken
-
+#Python #VoiceAssistant #GeminiAI #Jarvis #StudentProject
